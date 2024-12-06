@@ -2,6 +2,10 @@
 
 This repo is meant as a tutorial to cover the basics of putting ML models in production as a service.
 
+In this first example: we're gonna create an api for a movie rating system. The api will return the rating for a given movie query.
+
+[Data from Kaggle](https://www.kaggle.com/datasets/fernandogarciah24/top-1000-imdb-dataset/data)
+
 ## Set-up
 
 We'll use VS Code as our editor and `poetry` as our dependency management.
