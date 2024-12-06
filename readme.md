@@ -52,6 +52,16 @@ if everything goes well, you can open a browser directed to `http://127.0.0.1:80
 you can test the debugger with the IDE built-in debug tab and hitting run.
 
 
+## Services:
+
+We want to have a functional service which can be utiliced from anywhere in the world. For that purpose we will be using the following servies:
+
+- [Render](https://www.render.com): Deployment service
+- [Render](https://www.render.com): Database provisioning
+- [Cloudfare](https://www.cloudflare.com/): S3 service and possible DDos protection (only if we endup using a custom domain of our own)
+- [Modal Labs](https://modal.com/): [Optional] if you need compute to train a model (something big).
+
+
 ## Structure:
 
 The repository follows a familiar application folder structure which resembles the `ml-trails` structure ;)
